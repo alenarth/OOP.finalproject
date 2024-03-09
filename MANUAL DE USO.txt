@@ -1,0 +1,17 @@
+Manual do Usuário
+
+O Trbalho A2 de POO utiliza a pasta do primeiro trabalho.
+Para localizar o código transformado para o modelo cliente-servidor com socket, vá na pasta src -> transformacaoparasocket
+
+Inicie o Servidor de Autenticação (AuthenticationServer):
+
+Execute a classe AuthenticationServer. Isso abrirá um servidor na porta especificada (no exemplo, 12347).
+Inicie o Servidor de Gerenciamento de Usuários (UserManagementServer):
+
+Execute a classe UserManagementServer. Isso abrirá outro servidor na porta especificada (no exemplo, 12348).
+Inicie o Cliente de Login (LoginClient):
+
+Execute a classe LoginClient. Isso se conectará ao servidor de autenticação e enviará credenciais para autenticação.
+Inicie o Cliente de Gerenciamento de Usuários (UserManagementClient):
+
+Execute a classe UserManagementClient. Isso se conectará ao servidor de gerenciamento de usuários e enviará uma lista de usuários (ou seja, operações de gerenciamento de usuários).
